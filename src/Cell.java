@@ -23,10 +23,10 @@ public class Cell {
 public void print(){
 
         switch (content){ //show all the case contents
-    case CROSS: System.out.println(" X ");
-    case CIRCLE: System.out.println(" O ");
-    case EMPTY: System.out.println("  ");
+            case CROSS:  System.out.print(" X "); break;
+            case CIRCLE: System.out.print(" O "); break;
+            case EMPTY:  System.out.print("   "); break;
 
+         }
     }
-}
-}
+ }

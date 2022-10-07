@@ -52,11 +52,11 @@ public class Board {
     }
 
 
-        /** Paint itself */
+
         public void print() {
             for (int row = 0; row < ROWS; ++row) {
                 for (int col = 0; col < COLS; ++col) {
-                    cells[row][col].print();   // each cell paints itself
+                    cells[row][col].print();   // each cell prints itself
                     if (col < COLS - 1) System.out.print("|");
                 }
                 System.out.println();
